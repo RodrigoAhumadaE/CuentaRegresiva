@@ -1,4 +1,3 @@
-using System.Timers;
 using Microsoft.AspNetCore.Mvc;
 namespace CuentaRegresiva.Controllers;
 
@@ -15,12 +14,12 @@ public class HomeController : Controller{
         ViewBag.inicioH = StartTime.ToString("hh:mm tt");
         ViewBag.finF = EndTime.ToString("MMM dd, yyyy");
         ViewBag.finH = EndTime.ToString("hh:mm tt");
-        ViewBag.restante = CuentaRegresiva(EndTime);
+        ViewBag.restante = CuentaRegresiva(EndTime, StartTime);
         return View("Index");
     }
 
-    public string CuentaRegresiva(DateTime fin){
-        TimeSpan dif = fin - DateTime.Now;
+    public string CuentaRegresiva(DateTime fin, DateTime inicio){
+        TimeSpan dif = fin - inicio;
         string restante = $"{dif.Days} Día(s), {dif.Hours} Hora(s), {dif.Minutes} Minuto(s)";
         Console.WriteLine(restante);
         return restante;
