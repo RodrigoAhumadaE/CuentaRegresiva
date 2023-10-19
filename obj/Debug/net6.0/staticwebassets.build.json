@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "0LJ/60hvzt/BIroG/Nppp9NDrfEPCBk8KeC9j4HXhiM=",
+  "Source": "CuentaRegresiva",
+  "BasePath": "_content/CuentaRegresiva",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CuentaRegresiva\\wwwroot",
+      "Source": "CuentaRegresiva",
+      "ContentRoot": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\CuentaRegresiva\\wwwroot\\",
+      "BasePath": "_content/CuentaRegresiva",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\CuentaRegresiva\\wwwroot\\css\\style.css",
+      "SourceId": "CuentaRegresiva",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Rodrigo\\Bootcamp Sonda\\C#-.Net\\practicas\\C#.Net\\CuentaRegresiva\\wwwroot\\",
+      "BasePath": "_content/CuentaRegresiva",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

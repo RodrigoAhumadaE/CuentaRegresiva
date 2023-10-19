@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/style.css">
+        <title>Cuenta Regresiva</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="tarjeta">
+                <h1 class="titulo">Cuenta Regresiva</h1>
+                <div class="tiempo">
+                    <div class="inicio">
+                        <h2>Start Time</h2>
+                        <h3>@ViewBag.inicioF</h3>
+                        <h3>@ViewBag.inicioH</h3>
+                    </div>
+                    <div class="final">
+                        <h2>End Time</h2>
+                        <h3>@ViewBag.finF</h3>
+                        <h3>@ViewBag.finH</h3>
+                    </div>
+                </div>
+                <div class="cuenta">
+                    <h2>Tiempo Restante</h2>
+                    <h3>@ViewBag.restante</h3>
+                    <h3>Restantes</h3>
+                </div>
+            </div>            
+        </div>
+    </body>
+</html>
